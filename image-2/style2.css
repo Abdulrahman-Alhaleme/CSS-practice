@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(238, 217, 189);
+    text-transform: capitalize;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main{
+    overflow: hidden;
+    padding: 10px 10px 80px 10px;
+
+}
+.section-1 p{
+    width: calc((100% - 40px)/3);
+    float: left;
+    background-color: gray;
+    margin-right: 10px;
+    height: 70px;
+    overflow: hidden;
+}
+.section-2 p{
+    height: 100px;
+    overflow-y: scroll;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.section-3 p{
+    width: calc((100% - 40px)/3);
+    float: left;
+    background-color: gray;
+    margin-right: 10px;
+    height: 70px;
+    overflow: hidden;
+}
