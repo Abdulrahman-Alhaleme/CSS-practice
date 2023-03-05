@@ -4,9 +4,13 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+body{
+    border-right: 5px solid black;
+}
 main{
     overflow: hidden;
     padding: 10px 10px 80px 10px;
+    
 
 }
 .section-1 p{
@@ -16,6 +20,7 @@ main{
     margin-right: 10px;
     height: 70px;
     overflow: hidden;
+    
 }
 .section-2 p{
     height: 100px;
